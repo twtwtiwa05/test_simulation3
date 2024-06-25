@@ -11,6 +11,8 @@ const fetchData = (FilE_NAME) => {
     // 자신의 깃허브 주소 입력
     // https://raw.githubusercontent.com/'자신 깃허브 이름'/simulation/main/simulation/src/data/${FilE_NAME}.json
     `https://raw.githubusercontent.com/jihoyeo/test_simulation/main/src/data/${FilE_NAME}.json`
+    `https://raw.githubusercontent.com/twtwtiwa05/test_simulation3/main/src/data/${FilE_NAME}.json`
+    
   );
   const data = res.then((r) => r.data);
   return data;
